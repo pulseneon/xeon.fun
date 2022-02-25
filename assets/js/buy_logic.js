@@ -51,3 +51,15 @@ getAnswer.onclick = function() {
             getAnswer.disabled = true;
     }
 };
+
+clear.onclick = function() {
+    document.getElementById('contact').value = '';
+    document.getElementById('equipment').value = '';
+    document.getElementById('cpu').value = 'choise';
+    document.getElementById('motherboard').value = 'choise';
+    document.getElementById('money').value = '';
+    document.getElementById('comment').value = '';
+    document.getElementById('choise1').checked = false;
+    document.getElementById('choise2').checked = false;
+    document.getElementById('choise3').checked = false;
+};
