@@ -43,6 +43,7 @@
 
 .intro_QA:hover{
   color: #f89008;
+  cursor: pointer;
 }
 
 .intro_answer{
@@ -50,10 +51,6 @@
   color: white;
   text-align: center;
   transition: color 0.5s linear;
-}
-
-.intro_QA:hover{
-  color: orange;
 }
 /* Input */
 
