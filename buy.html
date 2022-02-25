@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="author" content="pulseneon"/>
+  <link type="image/jpg" href="assets/images/icon.jpg" rel="icon">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/buy.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,800;1,500&display=swap" rel="stylesheet">
+  <title>Заказ — xeon.fun</title>
+ </head>
+ <body>
+   <!-- JS Scripts -->
+  <script src="assets/js/random_desc.js"></script>
+  <script type="text/javascript">
+    window.onload = change_desc;
+  </script>
+   
+   <header class="header">
+     <div class="container">
+      <div class="header_inner">
+        <div class="header_logo"><a href="index.html">Xeon.fun</a></div>
+        <nav class="nav">
+          <a class="nav_link" href="#">Оформить заказ</a>
+          <a class="nav_link" href="goods.html">Товары</a>
+          <a class="nav_link" href="compares.html">Сравнения</a>
+          <a class="nav_link" href="gallery.html">Галерея</a>
+          <a class="nav_link" href="history.html">История</a>  
+        </nav>
+      </div>
+      <div id="desc" class="header_desc">разгоняем ядра..</div>
+    </div>
+   </header>
+
+   <main>
+      <div class="intro">
+        <div> <h1 class="intro_title">Оформление заказа</h1> </div>
+        <div class="container">
+        <div class="intro_inner">
+          <div>
+          <form action="#">
+              <h3 class="intro_h3">Ваши контактные данные</h3>
+              <input type="text" id="contact" placeholder="Telegram / instagram / email / etc.">
+
+              <h3 class="intro_h3">Комплектация сборки</h3>
+              <input type="text" id="equipment" placeholder="Пример: Полная сборка ПК с водяным охлаждением и кастомным корпусом">
+          
+              <h3 class="intro_h3">Желаемый процессор</h3>
+              <select id="cpu">
+                <option value="choise">Выберите вариант</option>
+                <option value="2603">Xeon E5 2603</option>
+                <option value="2620">Xeon E5 2620</option>
+                <option value="2630">Xeon E5 2630</option>
+                <option value="2640">Xeon E5 2640</option>
+                <option value="2643">Xeon E5 2643</option>
+                <option value="2650">Xeon E5 2650</option>
+                <option value="2660">Xeon E5 2660</option>
+                <option value="2670">Xeon E5 2670</option>
+                <option value="2689">Xeon E5 2689</option>
+                <option value="2690">Xeon E5 2690</option>
+                <option value="2650 v2">Xeon E5 2650 v2</option>
+                <option value="2690 v2">Xeon E5 2690 v2</option>
+                <option value="2695 v2">Xeon E5 2695 v2</option>
+                <option value="2697 v2">Xeon E5 2697 v2</option>
+                <option value="custom">Указал в комментарии свой вариант</option>
+              </select>
+              
+              <h3 class="intro_h3">Желаемая мат. плата (учитывайте совместимость)</h3>
+              <select id="motherboard">
+                <option value="choise">Выберите вариант</option>
+                <option value="2603">Huanan x79</option>
+                <option value="2620">Huanan x79 Gaming</option>
+                <option value="2630">E5 ver 3.2</option>
+                <option value="2640">Jingsha X79 P3</option>
+                <option value="2643">Kllisre X79 P</option>
+                <option value="2650">Kllisre X79 P-6C</option>
+                <option value="2660">X79G</option>
+                <option value="custom">Указал в комментарии свой вариант</option>
+              </select>
+              <h3 class="intro_h3">Ваш бюджет</h3>
+              <input type="number" id="contact" placeholder="Пример: 45-50 тыс. рублей">
+              <h3 class="intro_h3">Комментарий к заказу</h3>
+              <textarea type="text" id="comment" placeholder="*Заполнение поля необязательно"></textarea>
+              <h3 class="intro_h3">Примечание</h3>
+              <input type="radio" id="choise1" value="choise1">
+              <label for="contactChoice2" style="color: white;">Детали со склада (цена выше, но меньше время на сборку)</label>
+              <input type="radio" id="choise1" value="choise1">
+              <label for="contactChoice2" style="color: white;">Установка лицензионного Windows 11 Pro (+2000 рублей)</label>
+              <input type="radio" id="choise1" value="choise1">
+              <label for="contactChoice2" style="color: white;">Доставка</label>
+              <input type="submit" id="getAnswer" class="intro_input" value="Отправить заявку на заказ">
+              <a href="qa.html"><h3 class="intro_QA">Q&A</h3></a>
+              <h3 class="intro_answer" id="answer">&nbsp;</h3>
+            </form>
+          </div>
+        </div>
+          <footer class="footer">
+            <p class="footer_p"><a class="footer_a" href="map.html">Карта сайта</a> | by <a class="footer_a" href="https://www.instagram.com/ppulseneon/" target="_blank">@pulseneon.</a> 2022. 🚀</p>
+          </footer>
+        </div>
+      </div>  
+   </main>
+   <script src="assets/js/buy_logic.js"></script>
+ </body>
+</html>

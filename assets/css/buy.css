@@ -1,0 +1,123 @@
+/* Intro */
+
+.intro_title{
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    text-transform: uppercase;
+    line-height: 1;
+    padding-top: 160px;
+  
+    font-size: 48px;
+    font-weight: 560;
+  }
+
+
+.intro_inner{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.intro_h3{
+  color: white;
+  padding-top: 15px;
+  transition: color 0.5s linear;
+}
+
+.intro_h3:hover{
+  color: #f89008;
+}
+
+.intro_input{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 560;
+}
+
+.intro_QA{
+  color: orange;
+  padding: 0;
+  text-align: end;
+}
+
+.intro_QA:hover{
+  color: #f89008;
+}
+
+.intro_answer{
+  margin: inherit;
+  color: white;
+  text-align: center;
+  transition: color 0.5s linear;
+}
+
+.intro_QA:hover{
+  color: orange;
+}
+/* Input */
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #ffa500;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f89008;
+}
+
+textarea {
+  background: white; /* Цвет фона */
+  padding: 10px;
+  width: 100%; 
+  height: 200px;
+  box-sizing: border-box; 
+  font-size: 14px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #ccc;
+}
+
+  /* Footer */
+  .footer{
+    text-align: end;
+    padding-top: 66px;
+  }
+
+  .footer_p{
+    color: white;
+    font-weight: 400;
+    margin: 0px;
+    padding-bottom: 4px;
+  } 
+
+  .footer_a:hover{
+    color:orange;
+  }
